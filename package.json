@@ -1,0 +1,39 @@
+{
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/igerasimov23/AppliFashion.git"
+  },
+  "scripts": {
+    "e2e-test-run": "./node_modules/.bin/wdio wdio.conf.local.js",
+    "e2e-test-run-sauce": "./node_modules/.bin/wdio wdio.conf.sauce.js"
+  },
+  "dependencies": {
+    "chai-arrays": "^2.0.0",
+    "chai-webdriverio": "^1.0.0",
+    "wdio-sauce-service": "^0.4.14",
+    "webdriverio": "^5.16.11",
+    "@wdio/cli": "^5.7.8",
+    "@wdio/local-runner": "^5.7.8",
+    "@wdio/mocha-framework": "^5.7.14",
+    "@wdio/reporter": "^5.7.8",
+    "@wdio/sauce-service": "^5.7.8",
+    "@wdio/selenium-standalone-service": "^5.7.8",
+    "@wdio/spec-reporter": "^5.7.9",
+    "@wdio/sync": "^5.7.8",
+    "chai": "^4.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-transform-runtime": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/register": "^7.4.4",
+    "@babel/runtime": "^7.4.5",
+    "@wdio/dot-reporter": "^5.16.5",
+    "@wdio/junit-reporter": "^5.15.5",
+    "@wdio/spec-reporter": "^5.16.5",
+    "babel-loader": "^8.0.6",
+    "babel-polyfill": "^6.26.0",
+    "regenerator-runtime": "^0.13.2"
+  }
+}
