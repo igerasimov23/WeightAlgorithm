@@ -16,12 +16,6 @@ export function browserSizes(device) {
     let browsSize;
     const defaultSize = { width: 1200, height: 1000 };
     switch (device) {
-        case 'tablet':
-            browsSize = { width: 800, height: 700 };
-            break;
-        case 'mobile':
-            browsSize = { width: 500, height: 700 };
-            break;
         case 'desktop':
             browsSize = { width: 1200, height: 700 };
             break;

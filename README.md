@@ -20,13 +20,13 @@ This directory contains everything related to the functional test suite for the
 
 ## Execution
 
-Script to run locally on Mac machine
+Script to run locally on Mac machine on chrome browser:
 ` npm run e2e-test-run`
 
 Script to run on SauceLab:
 `SELHOST=sauce SAUCE_USERNAME="igerasimov231" SAUCE_ACCESS_KEY="9e05cde5-f00b-4aed-9e05-16b41ae95ae5" npm run e2e-test-run-sauce`
 
-To see results in Saucelab, you need to login: igerasimov231/Fetchrewards)1
+To see results in Saucelab, you need to login: igerasimov231/ Fetchrewards)1
 
 
 #### Project structure

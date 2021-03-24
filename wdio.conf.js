@@ -4,7 +4,6 @@ const globals = require('./globals');
 const chai = require('chai');
 const assertArrays = require('chai-arrays');
 const chaiWebdriver = require('chai-webdriverio').default;
-const fs = require('fs');
 
 
 // SauceLab run setup
