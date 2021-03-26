@@ -43,7 +43,7 @@ export function capabConfig() {
             browserVersion: this.setBrowserVersion(),
             pageLoadStrategy: this.setPageLoadStrategy,
             'sauce:options': {
-                build: process.env.JOB_NAME ? `${process.env.JOB_NAME}:${process.env.BUILD_NUMBER}` : `WebdriverioCooking : ${new Date()}`,
+                build: process.env.JOB_NAME ? `${process.env.JOB_NAME}:${process.env.BUILD_NUMBER}` : `Webdriverio : ${new Date()}`,
                 extendedDebugging: process.env.EXTENDDEBUG || false,
                 commandTimeout: parseInt(process.env.COMMANDTIMEOUT, 10) || 300,
                 idleTimeout: parseInt(process.env.IDLETIMEOUT, 10) || 180,
